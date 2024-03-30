@@ -23,7 +23,7 @@ import java.util.logging.Logger;
 public class ClientAPI {
     public static void main(String[] args) {
         String apiUrl = "http://localhost:8080/api/min-max/minimal-total";
-
+        //
         Client client = Client.create();
         WebResource webResource = client.resource(apiUrl);
 
